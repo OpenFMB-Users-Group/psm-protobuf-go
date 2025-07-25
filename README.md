@@ -12,7 +12,7 @@ Add the following to the go.mod file in your project:
 
 ```go
 require (
-    gitlab.com/openfmb/psm/ops/protobuf/go-openfmb-ops-protobuf <release-tag-label>
+    github.com/OpenFMB-Users-Group/psm-protobuf-go <release-tag-label>
 )
 ```
 
@@ -26,8 +26,8 @@ After adding the depencency in your project, you are ready to include the protob
 
 ```go
 import (
-    commonmodule "gitlab.com/mthollylab/go-openfmb-protobuf/openfmb/commonmodule"
-    metermodule "gitlab.com/mthollylab/go-openfmb-protobuf/openfmb/metermodule"
+    commonmodule "github.com/OpenFMB-Users-Group/psm-protobuf-go/v2/openfmb/commonmodule"
+    metermodule "github.com/OpenFMB-Users-Group/psm-protobuf-go/v2/openfmb/metermodule"
 )
 ```
 

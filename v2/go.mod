@@ -1,8 +1,8 @@
-module gitlab.com/openfmb/psm/ops/protobuf/go-openfmb-ops-protobuf/v2
+module github.com/OpenFMB-Users-Group/psm-protobuf-go/v2
 
-go 1.15
+go 1.24
 
 require (
-	github.com/golang/protobuf v1.4.1
-	google.golang.org/protobuf v1.25.0
+	github.com/golang/protobuf v1.5.4
+	google.golang.org/protobuf v1.36.1
 )

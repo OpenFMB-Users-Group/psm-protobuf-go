@@ -1,3 +1,3 @@
-module gitlab.com/openfmb/psm/ops/protobuf/go-openfmb-ops-protobuf
+module github.com/OpenFMB-Users-Group/psm-protobuf-go
 
 require github.com/golang/protobuf v1.3.1
